@@ -84,4 +84,21 @@ public class CCuenta {
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;
     }
+
+	public String getCuenta() {
+		return cuenta;
+	}
+
+	public void setCuenta(String cuenta) {
+		this.cuenta = cuenta;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+    
 }
